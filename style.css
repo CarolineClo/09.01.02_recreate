@@ -36,6 +36,7 @@ p {
   font-weight: 400;
   font-style: italic;
   border-bottom: rgb(242, 232, 232) solid 1px;
+  text-transform: capitalize;
 }
 
 p span {
@@ -94,6 +95,18 @@ p span {
 .brandList {
   display: flex;
   flex-direction: column;
+}
+
+button {
+  margin: auto;
+  padding: 0.2rem 0.5rem;
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: rgb(147, 23, 36);
+  border: solid 1px rgb(147, 23, 36);
+  background-color: white;
 }
 
 @media screen and (min-width: 480px) {
