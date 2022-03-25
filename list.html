@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bike Stock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section class="topSection">
+        <img class="logo" src="images/logo.png" alt="the bike stock logo" />
+        <article class="brandList">
+          <h2>Brands we carry -</h2>
+          <div>
+            <span>Linus</span> / <span>brompton</span> /
+            <span>Christiania</span> / <span>State</span>
+          </div>
+        </article>
+      </section>
+      <section class="productList"></section>
+    </main>
+    <script src="list.js"></script>
+  </body>
+</html>
+
+<template id="bikesTemplate">
+  <article class="productCard">
+    <img src="images/warhawk.png" alt="A red and black State Warhawk bike" />
+    <div class="brand">
+      <h3>state</h3>
+      <h2>title</h2>
+    </div>
+    <div class="specs">
+      <p>Price - <span>$579</span></p>
+      <p>colours - <span>N/A</span></p>
+      <p>In stock - <span>1</span></p>
+      <button>Full Specs</button>
+    </div>
+  </article>
+</template>

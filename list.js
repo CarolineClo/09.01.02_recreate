@@ -28,6 +28,7 @@ async function getData(bikeData) {
 
 function showPosts(bikeData) {
   console.log(bikeData);
+
   bikeData.forEach((singleBike) => {
     //grab template
     const template = document.querySelector("#bikesTemplate").content;
@@ -38,7 +39,7 @@ function showPosts(bikeData) {
     //change it
     copy.querySelector(".brand h2").textContent = singleBike.title.rendered;
     //grab parent
-    const parent = document.querySelector(".productList");
+    const parent = document.querySelector("main");
 
     //append
     parent.appendChild(copy);
